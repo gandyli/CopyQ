@@ -13,7 +13,7 @@ QString defaultClipboardTabName();
 
 namespace Config {
 
-const int maxItems = 10000;
+const int maxItems = 1000000;
 
 template<typename ValueType>
 struct Config {
